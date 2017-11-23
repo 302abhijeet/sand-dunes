@@ -2,6 +2,7 @@ package com.sanddunes.starwars.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.sanddunes.starwars.AnimationDemo;
 import com.sanddunes.starwars.MainActivity;
 
 public class DesktopLauncher {

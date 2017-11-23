@@ -13,7 +13,7 @@ public class MainActivity extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		new AnimationDemo().create();
 	}
 
 	@Override
@@ -28,6 +28,6 @@ public class MainActivity extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
+		//img.dispose();
 	}
 }
